@@ -1,0 +1,47 @@
+body{
+    background-image: url('../../assets/images/login-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cenbter;
+}
+main{
+    font-family: var(--f1);
+    font-size: 15px;
+    margin-top: 80px;
+}
+main .img img{
+    width: 350px;
+    height: 350px;
+}
+main .text{
+    max-width: 450px;
+    font-family: var(--f1);
+}
+.wrapper{
+    width: 100%;
+}
+.wrapper .container{
+    width: 80%;
+    padding: 30px;
+    max-height: 650px;
+    box-shadow: 2px 0px 10px 0px #c5c1c1;
+    margin: 20px;
+    background-color: #fff;
+}
+.form{padding: 30px;}
+.form input{
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    font-family: var(--f1);
+    font-size: 15px;
+    outline: none;
+}
+.form .input{
+    padding: 5px;
+    margin: 3px;
+    border: 2px solid #000;
+    border-radius: 25px;
+}
+.form .btn{border-radius: 5px;}

@@ -1,0 +1,17 @@
+.banner{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #fff;
+}
+.banner .img img{
+            width: 400px;
+            height: 550px;
+            padding: 20px;
+}
+.slide{min-height: 700px;width: 100vw;font-family: var(--f1);flex-shrink: 0;transition: 300ms ease-in-out;}
+.container{width: 80%;}
+@media screen and (max-width: 799px){
+    .slide{max-height: 100%;}
+    .slide img{display: none;}
+}
