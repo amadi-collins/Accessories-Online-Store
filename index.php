@@ -14,6 +14,7 @@
 </head>
 <body>
     <?php require_once dirname(__FILE__).'/includes/Header.php';?>
+    
     <main>
         <?php require_once dirname(__FILE__).'/includes/Banner.php';?>
        <!-- <section class="categories">
@@ -35,7 +36,8 @@
             </div>
         </section>-->
         <br>
-        <section class="search flex ac ctr col">
+          <section class="content">
+            <section class="search flex ac ctr col">
             <div class="container flex ac ctr col">
             <div class="h flex col ac ctr t-ctr">
                 <h2>Find What You Are Looking For</h2>
@@ -110,6 +112,7 @@
                 </section>
             </section>
 
+          </section>
     </main>
 </body>
 <script type="module" src="<?php  echo base_url('/src/apps/main.js');?>"></script>
