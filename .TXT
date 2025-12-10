@@ -1,4 +1,1 @@
-# Find and remove suspiciously small index.php files (likely malicious)
-find ~/public_html -name "index.php" -size -500c -delete
-echo "Suspicious small index.php files removed"
 
